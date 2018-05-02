@@ -1,11 +1,15 @@
 <?php
+$u=[];
 for($i=2;$i<=100;$i++){
       echo "{$i}<br>";
       for ($k=1;$k<=100;$k++){
          if ($i%$k==0){
-          echo "prime"."number";
+             $u[];
+             echo "$i*";
       } else
-          {echo "non"."prime"."number";}
+          {$i = "non"."prime"."number";
+          echo "$i";
+          }
 };}
 
 
